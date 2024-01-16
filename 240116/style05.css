@@ -1,0 +1,16 @@
+div {
+  /* border: 1px solid #f00; */
+  width: 500px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  background: linear-gradient(
+    to bottom, 
+    #f85032 1%, 
+    #f16f5c 50%, 
+    #f6290c 1%, 
+    #e73827 100%);
+}
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+50,752201+51,bf6e4e+100;Brown+Gloss */
+background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */

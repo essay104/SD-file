@@ -1,10 +1,19 @@
-input[type=checkbox]:checked + div {
+* {
+  font-size: 20px;
+}
+h1 {
+  font-size: 2em;
+}
+input[type="button"]:active + div {
   height: 0px;
 }
-
 div {
   overflow: hidden;
   width: 650px;
   height: 300px;
-  transition-duration: 0.3s;
+}
+#img {
+  margin: 0 auto;
+  background: url("https://cdnimg.melon.co.kr/cm2/artistcrop/images/002/61/143/261143_20210325180240_org.jpg?61e575e8653e5920470a38d1482d7312/melon/optimize/90")
+    center/500px no-repeat;
 }
