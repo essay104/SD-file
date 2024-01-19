@@ -1,0 +1,14 @@
+@import url(./reset.css);
+
+header {
+  border: 1px solid #000;
+}
+#gnb_left {
+  display: flex;
+  justify-content: left;
+  
+}
+#gnb_right {
+  display: flex;
+  justify-content: right;
+}
