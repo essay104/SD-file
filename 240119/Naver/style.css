@@ -1,0 +1,66 @@
+@import url(./reset.css);
+
+/* header > topguibar */
+
+#wrap {
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  padding-bottom: 100px;
+}
+
+header > #topguibar {
+  /* border: 1px solid #000; */
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#topguibar > .leftguibar {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  font-size: 1.5em;
+}
+#topguibar > .rightguibar {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  font-size: 1.5em;
+}
+header > #searchbar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#main_bar {
+  width: 800px;
+  height: 80px;
+  border: 3px solid #03c75a;
+  border-radius: 60px;
+  padding-left: 50px;
+  font-size: 2em;
+  color: #DFDEE2;
+}
+#chijijick {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#icons > ul {
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+  padding-top: 30px;
+  justify-content: center;
+}
+#icons > ul > #icons_name {
+  font-size: 1px;
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--custom css-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--fontawesome js-->
+    <script
+      src="https://kit.fontawesome.com/aa285c689f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--custom js-->
+    <script src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <!--header-->
+      <header>
+        <div>
+          <span>
+            <a href="#">
+              <img width="100" src="./img/logo.png" alt="logo" />
+            </a>
+          </span>
+          <nav>
+            <div>
+              <span>이벤트</span>
+              <span>고객센터</span>
+              <span id="icon-group">
+                <span>
+                  <i class="fa-solid fa-bars"></i>
+                </span>
+                <span>
+                  <i class="fa-regular fa-user"></i>
+                </span>
+              </span>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- figure -->
+      <figure>
+        <div id="slide">
+          <h1>국내부터 해외까지<br />여행할때 여기 어때</h1>
+          <div id="schedule">
+            <div id="schedule_title">
+              <span>국내 숙소</span>
+              <span>해외 숙소</span>
+            </div>
+            <div id="schedule_bar">
+              <form action="http://localhost/3000/search" method="post">
+                <span>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <input
+                  class="schedule-item search"
+                  type="text"
+                  placeholder="여행지나 숙소를 검색해보세요"
+                />
+                <input
+                  class="schedule-item month"
+                  type="date"
+                  placeholder="01.22일 - 01.26 금 (4박)"
+                />
+                <select class="schedule-item" id="person">
+                  <option value="2">인원 2</option>
+                  <option value="3">인원 3</option>
+                  <option value="4">인원 4</option>
+                  <option value="5">인원 5</option>
+                  <option value="6">인원</option>
+                  <input type="submit" value="검색" />
+                </select>
+              </form>
+            </div>
+          </div>
+        </div>
+      </figure>
+      <!-- section -->
+      <section id="contents">
+        <article class="inner_content event">
+          <div id="inner_content_title">
+            <h3>이벤트</h3>
+            <h5>더보기</h5>
+          </div>
+          <div id="inner_content_slide">
+            <img src="./img/2.event/event_01.jpg" alt="event01" />
+            <img src="./img/2.event/event_02.jpg" alt="event01" />
+            <img src="./img/2.event/event_03.jpg" alt="event01" />
+          </div>
+          <div id="list">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </article>
+        <article class="inner_content local">
+          <div class="inner_content_title">
+            <h3>국내 인기 여행지</h3>
+            <h5>더보기</h5>
+          </div>
+          <div class="inner_content_slide">
+            <div>
+              <img src="./img/3.korean/korean_01.jpg" alt="korean01" />
+              <div class="slide_title">강릉</div>
+            </div>
+            <div>
+              <img src="./img/3.korean/korean_02.jpg" alt="korean02" />
+              <div class="slide_title">경주</div>
+            </div>
+            <div>
+              <img src="./img/3.korean/korean_03.jpg" alt="korean03" />
+              <div class="slide_title">부산</div>
+            </div>
+            <div>
+              <img src="./img/3.korean/korean_04.jpg" alt="korean04" />
+              <div class="slide_title">서울</div>
+            </div>
+            <div>
+              <img src="./img/3.korean/korean_05.jpg" alt="korean05" />
+              <div class="slide_title">인천</div>
+            </div>
+            <div>
+              <img src="./img/3.korean/korean_06.jpg" alt="korean06" />
+              <div class="slide_title">제주도</div>
+            </div>
+          </div>
+        </article>
+        <article class="outside content local">
+          <div class="outside content_title">
+            <h3>해외 인기 여행지</h3>
+            <h5>더보기</h5>
+          </div>
+          <div class="outside content_slide">
+            <div>
+              <img src="./img/3.korean/korean_01.jpg" alt="korean01" />
+              <div class="slide_title">강릉</div>
+            </div>
+            <div>
+              <img src="./img/3.korean/korean_02.jpg" alt="korean02" />
+              <div class="slide_title">경주</div>
+            </div>
+            <div>
+              <img src="./img/3.korean/korean_03.jpg" alt="korean03" />
+              <div class="slide_title">부산</div>
+            </div>
+            <div>
+              <img src="./img/3.korean/korean_04.jpg" alt="korean04" />
+              <div class="slide_title">서울</div>
+            </div>
+            <div>
+              <img src="./img/3.korean/korean_05.jpg" alt="korean05" />
+              <div class="slide_title">인천</div>
+            </div>
+            <div>
+              <img src="./img/3.korean/korean_06.jpg" alt="korean06" />
+              <div class="slide_title">제주도</div>
+            </div>
+          </div>
+        </article>
+        <article class="inner_content_hot">
+          <div class="inner_content_title">
+            <div id="inner_content_titlegroup">
+              <h3>인기 추천 숙소</h3>
+              <h5>더보기</h5>
+              <div id="badge">
+                <span>전체</span>
+                <span>호텔</span>
+                <span>호텔/리조트</span>
+                <span>펜션/풀빌라</span>
+                <span>프리미엄 블랙</span>
+                <span>캠핑/글램핑/</span>
+                <span>홈&빌라</span>
+                <span>게하/한옥</span>
+              </div>
+            </div>
+          </div>
+          <div class="inner_content_slide">
+            <div>
+              <div class="slide_title">                
+                <img src="./img/4.travel/travel_01.jpg" alt="favorit01" />
+              </div>
+              <div class="slide_contents_info">
+                <div class="slide_content_info_top">
+                  <div>블랙, 특급, 호텔</div>
+                  <div>세인트존스 호텔</div>
+                  <div>강릉시, 강릉 강문해변 앞</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                    <span> 6,150명 평가 </span>
+                  </div>
+                  <div class="slide_content_info_bottom">
+                    <div>쿠폰적용시</div>
+                    <div>
+                      <span>995,000원</span>
+                      <span>1,004,5000원</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+          </article>
+        <article class="inner_content special"></article>
+        <article class="inner_content pension"></article>
+        <article class="inner_content blackdeal"></article>
+        <article class="inner_content banner"></article>
+      </section>
+    </main>
+  </body>
+</html>
