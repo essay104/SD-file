@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: 0;
+}
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}

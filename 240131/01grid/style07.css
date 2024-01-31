@@ -1,0 +1,29 @@
+.parent {
+  border: 5px solid #000;
+  background: khaki;
+  display: grid;
+  grid-template-areas: "header header header" "gnb content lnb" "gnb footer footer";
+}
+
+.parent {
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.header {
+  grid-area: header;
+}
+.header {
+  grid-area: gnb;
+}
+.header {
+  grid-area: content;
+}
+.header {
+  grid-area: lnb;
+}
+.header {
+  grid-area: footer;
+}

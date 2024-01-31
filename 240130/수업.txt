@@ -1,0 +1,48 @@
+☆★☆★☆★키포인트☆★☆★☆★
+
+1. object-fit: cover;
+미디어를 액자에 맞추는 기능
+section .inner .wrap article {
+  width: 280px;
+  float: left;
+}
+section .inner .wrap article .pic {
+  height: 120px;
+  width: 100%;
+}
+section .inner .wrap article .pic img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+2. height: calc(100vh - 120px);
+
+3. position: relative;
+   로 overflow:hidden으로 감춰진 요소를 들춰내기 
+
+4. 특수문자 
+ex ) &copy; = copyright
+
+5. 절대좌표로 중앙으로 움직이기
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+컴포넌트 : 템플릿 = 붕어빵 틀
+인스턴스 : 컴포넌트로 만들어놓은 템플릿의 복제품!!! = 붕어빵
+
+display: grid -> flex처럼 부모요소에 삽입
+grid-template-columns: auto auto;
+grid-template-columns: 1fr 1fr;
+
+fr = fraction = 파편/분자
+
+grid-template-row => 행
+
+축약!!
+-font/ background / animation / transition / flex / flex-flow
+-grid : 열 grid-template-columns / 행 grid-tempate-row
+
