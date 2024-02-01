@@ -1,0 +1,19 @@
+// variables
+$fs: 15px;
+$color-primary: #000;
+$box-margin: 50px;
+
+.frame {
+  border: 1px solid $color-primary;
+  padding: ($box-margin % 36);
+  margin: calc($box-margin / 2);
+  h1 {
+    font-size: $fs * 3;
+  }
+  p {
+    border 1px solid $color-primary;
+    font-size: clac($fs * 2);
+    padding: calc(($box-margin / 2));
+    margin: $box-margin 0;
+  }
+}

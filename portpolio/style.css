@@ -12,7 +12,7 @@
 }
 header #head-title {
   margin: 0 auto;
-  width: 1920px;
+  width: 64%;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,8 @@ header #head-title {
 header #head-title .logo {
   display: flex;
   align-items: center;
-  padding-left: 30px;
+  padding-left: 10px;
+  font-size: 30px;
 }
 header #head-title h1 {
   display: flex;
@@ -29,8 +30,10 @@ header #head-title h1 {
 header #head-title .icons {
   display: flex;
   align-items: center;
-  gap: 15px;
-  padding-right: 30px;
+  gap: 1px;
+  padding-right: 10px;
+  font-size: 20px;
+  gap: 10px;
 }
 #page1 #main-box {
   width: 100%;
@@ -46,11 +49,26 @@ header #head-title .icons {
   left: 15%;
   bottom: 40%;
 }
+#main-box .introduce h5::before {
+  display: block;
+  content: "";
+  width: 10px;
+  height: 250px;
+  background: #4287f5;
+  position: absolute;
+  left: -20px;
+  top: -10px;
+}
+
+.radious-group {
+  opacity: 0.5;
+}
+
 .radious-group span:first-child {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: #000;
+  background: #808080;
   border-radius: 20px;
 }
 .radious-group span:nth-child(2) {
@@ -66,4 +84,43 @@ header #head-title .icons {
   height: 20px;
   background: #fff;
   border-radius: 20px;
+}
+/* page2 */
+.page2 {
+  width: 100%;
+  height: 100vh;
+}
+#wrap2 {
+  width: 100%;
+  height: 1000px;
+}
+
+/* ==== Tablet ==== */
+@media screen and (max-width: 800px) {
+  #page1 {
+    width: 100%;
+  }
+  #main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #main-box .introduce {
+    text-align: center;
+  }
+  #main-box .introduce h5 {
+    font-size: 2rem;
+  }
+  #main-box .introduce h1 {
+    font-size: 5rem;
+  }
+  #main-box .introduce h2 {
+    font-size: 3rem;
+  }
+  #main-box .introduce h5::before {
+    display: none;
+  }
+}
+/* ====mobile==== */
+@media screen and (max-width: 500px) {
 }
