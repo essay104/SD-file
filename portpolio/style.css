@@ -5,6 +5,9 @@
   width: 100%;
   height: 100%;
 }
+#page1 {
+  position: relative;
+}
 #page1 #head-box {
   width: 100%;
   height: 100px;
@@ -16,6 +19,9 @@ header #head-title {
   height: 100px;
   display: flex;
   justify-content: space-between;
+}
+#head-title.active {
+  background: var(--primary-color);
 }
 header #head-title .logo {
   display: flex;
@@ -35,6 +41,13 @@ header #head-title .icons {
   font-size: 20px;
   gap: 10px;
 }
+
+.hover-bar {
+  margin: 0 auto;
+  width: 64%;
+  height: 25px;
+  background: #464752;
+}
 #page1 #main-box {
   width: 100%;
   height: 1000px;
@@ -46,7 +59,7 @@ header #head-title .icons {
   color: #fff;
   font-size: 4rem;
   position: absolute;
-  left: 15%;
+  left: 20%;
   bottom: 40%;
 }
 #main-box .introduce h5::before {
@@ -96,17 +109,18 @@ header #head-title .icons {
 }
 
 /* ==== Tablet ==== */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1280px) {
   #page1 {
     width: 100%;
   }
   #main-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
   }
   #main-box .introduce {
     text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   #main-box .introduce h5 {
     font-size: 2rem;
@@ -123,4 +137,13 @@ header #head-title .icons {
 }
 /* ====mobile==== */
 @media screen and (max-width: 500px) {
+  #main-box .introduce h5 {
+    font-size: 1rem;
+  }
+  #main-box .introduce h1 {
+    font-size: 4rem;
+  }
+  #main-box .introduce h2 {
+    font-size: 3rem;
+  }
 }
