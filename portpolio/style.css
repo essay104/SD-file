@@ -10,36 +10,39 @@
 }
 #page1 #head-box {
   width: 100%;
-  height: 100px;
+  height: 60px;
   border-bottom: 1px solid var(--font-color);
 }
-header #head-title {
-  margin: 0 auto;
-  width: 64%;
-  height: 100px;
+header #headtitle {
+  position: fixed;
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  justify-content: space-around;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
 }
-#head-title.active {
-  background: var(--primary-color);
+#headtitle.active {
+  background: #eee;
 }
-header #head-title .logo {
+header #headtitle .logo {
   display: flex;
   align-items: center;
   padding-left: 10px;
   font-size: 30px;
 }
-header #head-title h1 {
+header #headtitle h1 {
   display: flex;
   align-items: center;
 }
-header #head-title .icons {
+header #headtitle .icons {
   display: flex;
   align-items: center;
   gap: 1px;
   padding-right: 10px;
-  font-size: 20px;
-  gap: 10px;
+  font-size: 40px;
+  gap: 20px;
 }
 
 .hover-bar {
@@ -102,10 +105,20 @@ header #head-title .icons {
 .page2 {
   width: 100%;
   height: 100vh;
+  margin: 0 auto;
 }
-#wrap2 {
-  width: 100%;
-  height: 1000px;
+#page2-wrap {
+  display: flex;
+  flex-direction: column;
+}
+#page2-wrap .hobbys {
+  display: flex;
+  border: 1px solid #000;
+  margin: 0 auto;
+  padding-top: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ==== Tablet ==== */

@@ -23,11 +23,11 @@ a {
   margin-bottom: 50px;
 }
 .portfolio .headline-share h1 {
-  decoration-style: wavy;
-  decoration-color: crimson;
-  decoration-line: underline;
-  decoration-thickness: 3px;
-  underline-offset: 15px;
+  text-decoration-style: wavy;
+  text-decoration-color: crimson;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 15px;
   font-size: 60px;
   text-transform: uppercase;
   text-align: center;
