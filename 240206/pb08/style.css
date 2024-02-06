@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.images {
+  display: flex;
+  gap: 100px;
+}
+
+.img {
+  position: relative;
+}
+.img .information {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: #eee;
+  text-align: center;
+  padding-top: 20%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+.img .information:hover {
+  opacity: 0.8;
+}
+.information .View {
+  padding: 10px 20px;
+  color: white;
+  background: dodgerblue;
+  font-size: 20px;
+}

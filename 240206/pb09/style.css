@@ -1,0 +1,46 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+/* common */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* profile */
+.wrap {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.wrap h1 {
+  font-size: 80px;
+  font-weight: lighter;
+  margin-bottom: 80px;
+}
+.wrap .profile-img img {
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.wrap .name {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.wrap .information span {
+  color: #f00;
+}

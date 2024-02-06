@@ -1,0 +1,61 @@
+.wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+}
+.wrap span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.wrap .red {
+  background: #f00;
+  animation: red linear 1.4s infinite;
+}
+
+.wrap .blue {
+  background: #00f;
+  animation: blue linear 1.4s infinite;
+}
+
+.wrap .white {
+  background: #ddd;
+  animation: white linear 1.4s infinite;
+}
+@keyframes red {
+  0% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(180deg) scale(0);
+  }
+  100% {
+    transform: rotate(360deg) scale(1.2);
+  }
+}
+@keyframes blue {
+  0% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(180deg) scale(0);
+  }
+  100% {
+    transform: rotate(360deg) scale(1.2);
+  }
+}
+@keyframes white {
+  25% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  75% {
+    transform: rotate(180deg) scale(0);
+  }
+  125% {
+    transform: rotate(360deg) scale(1.2);
+  }
+}

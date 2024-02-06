@@ -1,0 +1,48 @@
+* {
+  bottom: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ddd;
+  position: relative;
+}
+
+.card-section img {
+  border-radius: 10px;
+}
+
+.goods-information {
+  padding: 10px;
+  width: 320px;
+  height: 100px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #909090;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.goods-name {
+  overflow: hidden;
+}
+
+.goods-name span:first-child {
+  float: left;
+}
+.goods-name span:last-child {
+  float: right;
+}
