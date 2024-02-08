@@ -36,7 +36,7 @@ $(".history-slider").slick({
   ],
 });
 
-//slick.js : project-photo
+slick.js : project-photo
 $('.project-photo').slick({
   dots: true,
   infinite: true,

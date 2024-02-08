@@ -110,6 +110,7 @@ header #headtitle .icons {
   height: 100vh;
   /* border: 1px solid #000; */
   margin: 0 auto;
+  padding: 50px 0;
 }
 .page2-1 {
   display: flex;
@@ -172,6 +173,13 @@ header #headtitle .icons {
   #main-box .introduce h5::before {
     display: none;
   }
+
+  /* page2 */
+  .page2-1 {
+    margin-top: 60%;
+    gap: 30px;
+    flex-direction: column;
+  }
 }
 /* ====mobile==== */
 @media screen and (max-width: 500px) {
@@ -183,5 +191,18 @@ header #headtitle .icons {
   }
   #main-box .introduce h2 {
     font-size: 3rem;
+  }
+
+  /* page2 */
+  .page2 {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .page2 .page2-1 {
+    border: none;
+  }
+  .page2-1 img {
+    width: 250px;
+    height: 250px;
   }
 }
