@@ -109,19 +109,21 @@ header #headtitle .icons {
   width: 80%;
   height: 100vh;
   /* border: 1px solid #000; */
-  padding-left: 200px;
+  margin: 0 auto;
 }
 .page2-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 150px;
+  border: 5px solid #ddd;
+  padding: 50px;
+  border-radius: 50px;
 }
 .profile-img img {
   border-radius: 100%;
-}
-.Myself {
-  border: 1px solid #000;
+  border: 1px solid #eee;
+  box-shadow: 0 0 10px #000;
 }
 .Myself h1 {
   font-size: 50px;
