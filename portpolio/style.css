@@ -107,10 +107,9 @@ header #headtitle .icons {
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 100vh;
   /* border: 1px solid #000; */
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 250px 0;
 }
 .page2-1 {
   display: flex;
@@ -176,7 +175,6 @@ header #headtitle .icons {
 
   /* page2 */
   .page2-1 {
-    margin-top: 60%;
     gap: 30px;
     flex-direction: column;
   }
@@ -196,13 +194,8 @@ header #headtitle .icons {
   /* page2 */
   .page2 {
     text-align: center;
-    margin-top: 100px;
   }
   .page2 .page2-1 {
     border: none;
-  }
-  .page2-1 img {
-    width: 250px;
-    height: 250px;
   }
 }
