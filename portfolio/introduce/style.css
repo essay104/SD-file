@@ -1,0 +1,51 @@
+@import url(./style.css);
+
+/* introduce */
+
+.introduce {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.introduce .WHO {
+  font-size: 80px;
+  text-align: center;
+  margin: 150px 0;
+}
+
+.page2-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  border: 5px solid #ddd;
+  padding: 50px;
+  border-radius: 50px;
+}
+.profile-img img {
+  border-radius: 100%;
+  border: 1px solid #eee;
+  box-shadow: 0 0 10px #000;
+  width: 350px;
+  height: 350px;
+}
+.Myself h1 {
+  font-size: 50px;
+}
+.Myhobby {
+  display: flex;
+  justify-content: space-between;
+}
+.Myhobby .hobbies {
+  width: 150px;
+  height: 150px;
+}
+.Myskill {
+  margin-top: 30px;
+}
+.Myskill .skills {
+  width: 150px;
+  height: 150px;
+}

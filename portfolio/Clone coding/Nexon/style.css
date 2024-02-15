@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@import url(./reset.css);
+@font-face {
+  font-family: "nexon";
+  src: url(./font/넥슨\ 카트\ 고딕\ Medium.ttf);
+}
+* {
+  font-family: "nexon";
+}
+
+#wrap {
+  background: #eee;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+.head .menu {
+  transition: all 0.3s;
+}
+.head .menu:hover {
+  color: royalblue;
+}
+.head .log-in {
+  font-weight: bold;
+}
+.head .log-in a:first-child:hover {
+  color: royalblue;
+  cursor: pointer;
+}
+.head .log-in a:last-child {
+  margin-left: 20px;
+  margin-right: 40px;
+  border: 2px solid #000;
+  padding: 5px 20px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.head .log-in a:last-child:hover {
+  background: royalblue;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: url(./img/banner.png) center no-repeat;
+  align-items: start;
+  margin-bottom: 100px;
+}
+figure .events {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  transform: translateX(-17%);
+}
+figure .events .event .event01 {
+  overflow: hidden;
+}
+figure .events .event .event01 li {
+  float: left;
+  background: rgba(255, 255, 255, 0.3);
+  transition: all 0.6s;
+  border: 1px solid #000;
+  width: 250px;
+}
+figure .events .event .event01 li:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+figure .events .event .event01 li a {
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+}
+
+section {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+section .recommend {
+  float: left;
+  width: 65%;
+}
+section .recommend h3 {
+  color: skyblue;
+}
+section .recommend .game-cards {
+  display: flex;
+  gap: 10px;
+}
+section .recommend .game-card {
+  background: #fff;
+  width: 18%;
+}
+section .recommend .game-card .game-img img {
+  width: 100%;
+}
+section .recommend .game-card .game-card-name {
+  height: 80px;
+  padding: 10px;
+}
+section .recommend .game-card .game-card-name span {
+  display: inline-block;
+  color: white;
+  background: skyblue;
+  border-radius: 10px;
+  padding: 0 5px;
+  font-size: 12px;
+}
+section .recommend .game-card .game-card-name p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+section .login-section {
+  float: right;
+  overflow: hidden;
+}
+section .login-section .center {
+  float: right;
+}
+section .login-section .center a:hover {
+  color: royalblue;
+}
+section .login-section .log-in-form {
+  margin-top: 67px;
+  padding: 50px;
+  background: #fff;
+  padding: 90px 60px;
+}
+section .login-section .log-in-form .ID-login a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  width: 300px;
+}
+section .login-section .log-in-form .login-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+  margin-top: 10px;
+}
+section .login-section .log-in-form .login-buttons span a {
+  padding: 10px 0;
+  color: #fff;
+  display: inline-block;
+  width: 168px;
+  background: #555;
+  text-align: center;
+}
+section .login-section .log-in-form .other-logins {
+  width: 300px;
+  margin-top: 20px;
+  padding: 5px 20px;
+  background: #ddd;
+  text-align: center;
+  color: #fff;
+  font-size: 0.8em;
+}
+section .login-section .log-in-form .other-logins a:first-child {
+  background: url(./img/set_login.png);
+}
+section .login-section .log-in-form .login-help {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #ddd;
+  font-size: 0.8em;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,55 @@
+@import url(./reset.css);
+
+/* clone-coding */
+
+.clone-coding {
+  width: 80%;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 80px;
+  text-align: center;
+  margin: 150px;
+}
+.clone-coding .clone-coding-example {
+  float: left;
+  width: 45%;
+}
+.clone-coding .clone-coding-example .web-img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background: url(./img/nexon.png) center/cover no-repeat;
+  margin-bottom: 50px;
+  float: left;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px #999;
+}
+.clone-coding .clone-coding-example02 {
+  float: right;
+  width: 45%;
+}
+
+.clone-coding .clone-coding-example02 .web-img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background: url(./img/naver.png) center/cover no-repeat;
+  margin-bottom: 50px;
+  float: right;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px #999;
+}
+.clone-coding .web-btn {
+  background: royalblue;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.clone-coding .web-btn:hover {
+  background: #fff;
+  color: royalblue;
+  cursor: pointer;
+}

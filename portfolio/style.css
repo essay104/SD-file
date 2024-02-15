@@ -1,0 +1,338 @@
+@import url(./reset.css);
+@import url(./var.css);
+
+#wrap {
+  width: 100%;
+  height: 100%;
+}
+#page1 {
+  position: relative;
+}
+#page1 #head-box {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid var(--font-color);
+}
+header #headtitle {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: inherit;
+  justify-content: space-around;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+/* #headtitle.active {
+  background: var(--primary-color)
+} */
+header #headtitle .logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 30px;
+}
+header #headtitle h1 {
+  display: flex;
+  align-items: center;
+}
+header #headtitle .icons {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  padding-right: 10px;
+  font-size: 40px;
+  gap: 20px;
+}
+
+.hover-bar {
+  margin: 0 auto;
+  width: 64%;
+  height: 25px;
+  background: #464752;
+}
+#page1 #main-box {
+  width: 100%;
+  height: 1000px;
+  filter: saturate(0.6);
+  background: url(./img/KakaoTalk_20240130_142130613.jpg) center/cover no-repeat;
+  position: relative;
+}
+#main-box .introduce {
+  color: #fff;
+  font-size: 4rem;
+  position: absolute;
+  left: 20%;
+  bottom: 40%;
+}
+#main-box .introduce h5::before {
+  display: block;
+  content: "";
+  width: 10px;
+  height: 250px;
+  background: #4287f5;
+  position: absolute;
+  left: -20px;
+  top: -10px;
+}
+
+.radious-group {
+  opacity: 0.5;
+}
+
+.radious-group span:first-child {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #808080;
+  border-radius: 20px;
+}
+.radious-group span:nth-child(2) {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 20px;
+}
+.radious-group span:nth-child(3) {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 20px;
+}
+/* page2 */
+.page2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  /* border: 1px solid #000; */
+  margin: 0 auto;
+  padding: 250px 0;
+}
+.page2-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  border: 5px solid #ddd;
+  padding: 50px;
+  border-radius: 50px;
+}
+.profile-img img {
+  border-radius: 100%;
+  border: 1px solid #eee;
+  box-shadow: 0 0 10px #000;
+}
+.Myself h1 {
+  font-size: 50px;
+}
+.Myhobby {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.Myhobby .hobbies {
+  width: 150px;
+  height: 150px;
+}
+.Myskill {
+  margin-top: 30px;
+}
+.Myskill .skills {
+  width: 150px;
+  height: 150px;
+}
+/* ####card#### */
+.main-section {
+  width: 80%;
+  height: 3500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main-section h1 {
+  font-size: 80px;
+  text-align: center;
+  margin: 150px 0;
+}
+.main-section .section01 {
+  width: 33%;
+  height: 100vh;
+  float: left;
+}
+.photo-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+}
+.photo-card .card-name {
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+.photo-card .card-name::before {
+  content: "";
+  width: 5px;
+  height: 25px;
+  background: crimson;
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+.photo-card .card-img {
+  border-bottom: 1px solid #ddd;
+}
+.photo-card .card-img img {
+  width: 100%;
+  margin: 10px 0;
+}
+.photo-card .card-information {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-bg .card-name {
+  position: relative;
+}
+.photo-bg .card-name-bg::before {
+  content: "";
+  width: 5px;
+  height: 25px;
+  background: royalblue;
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+.photo-animal .card-name {
+  position: relative;
+}
+.photo-animal .card-name-animal::before {
+  content: "";
+  width: 5px;
+  height: 25px;
+  background: yellowgreen;
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+.fa-face-smile-beam:hover {
+  color: yellow;
+  cursor: pointer;
+}
+.fa-heart:hover {
+  color: crimson;
+  cursor: pointer;
+}
+.fa-thumbs-up:hover {
+  color: blue;
+  cursor: pointer;
+}
+/* clone-coding */
+.clone-coding {
+  width: 80%;
+  height: 1000px;
+  margin: 0 auto;
+}
+h1{
+  font-size: 80px;
+  text-align: center;
+  margin: 150px;
+}
+.clone-coding .clone-coding-example {
+  float: left;
+  width: 45%;
+}
+.clone-coding .clone-coding-example .web-img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background: url(./img/nexon.png) center/cover no-repeat;
+  margin-bottom: 50px;
+  float: left;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px #999;
+}
+.clone-coding .clone-coding-example02 {
+  float: right;
+  width: 45%;
+}
+.clone-coding .clone-coding-example02 .web-img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background: url(./img/naver.png) center/cover no-repeat;
+  margin-bottom: 50px;
+  float: right;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px #999;
+}
+.clone-coding .web-btn {
+  background: royalblue;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.clone-coding .web-btn:hover {
+  background: #fff;
+  color: royalblue;
+  cursor: pointer;
+}
+/* ==== Tablet ==== */
+@media screen and (max-width: 1280px) {
+  #page1 {
+    width: 100%;
+  }
+  #main-box {
+    position: relative;
+  }
+  #main-box .introduce {
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #main-box .introduce h5 {
+    font-size: 2rem;
+  }
+  #main-box .introduce h1 {
+    font-size: 5rem;
+  }
+  #main-box .introduce h2 {
+    font-size: 3rem;
+  }
+  #main-box .introduce h5::before {
+    display: none;
+  }
+
+  /* page2 */
+  .page2-1 {
+    gap: 30px;
+    flex-direction: column;
+  }
+}
+/* ====mobile==== */
+@media screen and (max-width: 500px) {
+  #main-box .introduce h5 {
+    font-size: 1rem;
+  }
+  #main-box .introduce h1 {
+    font-size: 4rem;
+  }
+  #main-box .introduce h2 {
+    font-size: 3rem;
+  }
+
+  /* page2 */
+  .page2 {
+    text-align: center;
+  }
+  .page2 .page2-1 {
+    border: none;
+  }
+}
