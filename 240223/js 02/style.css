@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  width: 10vw;
+  overflow: hidden;
+}
+
+button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: #663399;
+  color: #fff;
+  padding: 15px;
+  display: none;
+  transition: 5 0.3s;
+}
+
+button.active {
+  transform: translateX(-110px);
+}
+
+.hidden {
+  display: none;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #639;
+  height: 100vh;
+  padding: 2em;
+  transform: translateX(100%);
+  transition: all 0.5s;
+}
+.nav.active {
+  transform: translateX(50%);
+}
+
+nav li {
+  padding: 1rem 0;
+}
+
+nav li a {
+  color: #fff;
+}
