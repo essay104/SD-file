@@ -1,0 +1,129 @@
+@import url(./reset.css);
+
+/* common */
+#brandPage {
+  position: relative;
+}
+
+/* section 01 */
+.section01 {
+  width: 100%;
+  height: 1080px;
+  background: rgb(245, 226, 226);
+}
+.section01 .section01-img {
+  width: 1344px;
+  height: 1080px;
+  background: url(./img/about_etude3_img1.jpg) center/cover no-repeat;
+}
+
+/* section02 */
+
+.section02 {
+  width: 100%;
+  height: 1080px;
+}
+.section02 .section02-img {
+  width: 100%;
+  height: 100%;
+  background: url(./img/Section02_img_Desktop.png) center no-repeat;
+}
+
+/* section03 */
+
+.section03 {
+  width: 100%;
+  height: 1353px;
+  background: rgb(245, 226, 226);
+}
+.section03 .section03-box {
+  display: flex;
+  width: 1420px;
+  height: 100%;
+  margin: 0 auto;
+}
+.section03-box .section03-box-left,
+.section03-box-right {
+  width: 710px;
+  height: 100%;
+  box-sizing: content-box;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.section03-box .section03-box-left > img {
+  width: 578px;
+  height: 651px;
+  margin: 351px 0px 351px 124px;
+}
+.section03-box-right .section03-imgpackage {
+  width: 702px;
+  height: 743px;
+  margin-top: 127px;
+  position: relative;
+}
+.section03-box-right .section03-imgpackage img {
+  width: 578px;
+  height: 651px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section03-text01 {
+  font-size: 45px;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+.section03-text02 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.section03-text02 p {
+  padding-bottom: 20px;
+}
+.section03-box-right .section03-gif img {
+  width: 118px;
+  height: 59px;
+}
+
+/* section04 */
+
+.section04 {
+  width: 100%;
+  height: 790px;
+}
+.section04-img {
+  width: 1420px;
+  height: 500px;
+  margin-left: 250px;
+  margin-top: 110px;
+  background: url(./img/about_etude_logo2023.jpg);
+}
+
+/* section05 */
+.section05 {
+  width: 100%;
+  height: 790px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section05-bgbox {
+  width: 1536px;
+  height: 720px;
+  background: url(./img/Section05.png) center/cover no-repeat;
+  position: relative;
+}
+.section05-text {
+  position: absolute;
+  top: 88px;
+  left: 250px;
+}
+.section05-text01 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.section05-text02 {
+  font-size: 18px;
+  font-weight: lighter;
+}
