@@ -36,3 +36,8 @@ Section 05 class = section05
 			>div.section05-text02
 				>p
 				>p
+
+Section 06 class = section06
+	>div.p
+		>p
+		>p
