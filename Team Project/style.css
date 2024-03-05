@@ -1,13 +1,14 @@
 @import url(./reset.css);
+@import url(./variable.css);
 
 /* common */
-#brandPage {
+/* #brandPage {
   position: relative;
-}
+} */
 
 /* section 01 */
 .section01 {
-  width: 100%;
+  width: 1920px;
   height: 1080px;
   background: rgb(245, 226, 226);
 }
@@ -20,7 +21,7 @@
 /* section02 */
 
 .section02 {
-  width: 100%;
+  width: 1920px;
   height: 1080px;
 }
 .section02 .section02-img {
@@ -32,7 +33,7 @@
 /* section03 */
 
 .section03 {
-  width: 100%;
+  width: 1920px;
   height: 1353px;
   background: rgb(245, 226, 226);
 }
@@ -88,20 +89,23 @@
 /* section04 */
 
 .section04 {
-  width: 100%;
+  width: 1920px;
   height: 790px;
+  background: #fff;
+  position: relative;
 }
 .section04-img {
   width: 1420px;
   height: 500px;
-  margin-left: 250px;
-  margin-top: 110px;
   background: url(./img/about_etude_logo2023.jpg);
+  position: absolute;
+  top: 110px;
+  left: 250px;
 }
 
 /* section05 */
 .section05 {
-  width: 100%;
+  width: 1920px;
   height: 790px;
   display: flex;
   justify-content: center;
@@ -131,7 +135,7 @@
 /* section06 */
 
 .section06 {
-  width: 100%;
+  width: 1920px;
   height: 4435px;
   background: rgb(245, 226, 226);
   position: relative;
@@ -149,3 +153,158 @@
   font-weight: bold;
   margin-bottom: 14px;
 }
+
+/* card img */
+
+.img_card {
+  width: 375px;
+  height: 760px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.img_card img {
+  width: 375px;
+  height: 478px;
+}
+
+.goods-imformation {
+  margin-top: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 70%;
+}
+
+.goods-information-subject {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  gap: 10px;
+  width: 335px;
+  border-bottom: 1px solid #000;
+}
+
+.goods-information-subject p:last-child {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 40px;
+}
+
+.goods-information-detail {
+  display: flex;
+  margin-top: 18px;
+  gap: 6px;
+}
+
+.goods-information-detail img {
+  width: 18px;
+  height: 25px;
+}
+
+.goods-information-detail .goods-information-date {
+  font-size: 9px;
+  font-weight: lighter;
+}
+
+.goods-information-date2 {
+  font-size: 5px;
+}
+
+.goods-information-detail P:first-child {
+  font-size: 15px;
+  font-weight: lighter;
+  position: relative;
+}
+
+.img_card:nth-child(1) {
+  position: absolute;
+  top: 404px;
+  left: 374px;
+}
+.img_card:nth-child(2) {
+  position: absolute;
+  top: 552px;
+  left: 772px;
+}
+.img_card:nth-child(3) {
+  position: absolute;
+  top: 454px;
+  left: 1170px;
+}
+.img_card:nth-child(4) {
+  position: absolute;
+  top: 1214px;
+  left: 374px;
+}
+.img_card:nth-child(5) {
+  position: absolute;
+  top: 1362px;
+  left: 772px;
+}
+.img_card:nth-child(6) {
+  position: absolute;
+  top: 1264px;
+  left: 1170px;
+}
+
+.img-wrap02 {
+  position: absolute;
+  top: 2270px;
+  left: 250px;
+  display: flex;
+}
+
+.img-wrap03 {
+  position: absolute;
+  left: 515.5px;
+  top: 3110px;
+}
+
+/* section07 */
+
+.section07 {
+  width: 1920px;
+  height: 1371px;
+  display: flex;
+  flex-direction: column;
+  background: #f6e5e5;
+}
+
+.section07-top {
+  display: flex;
+  width: inherit;
+  height: 710px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.section07-top-left,
+.section07-top-right {
+  height: 710px;
+  width: 710px;
+}
+
+.section07-top-left {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.section07-tl-text {
+  margin: 0 auto;
+  font-size: 54px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.section07-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 135px;
+}
+
+/* 1024-미디어쿼리 */
+
