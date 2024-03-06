@@ -1,0 +1,21 @@
+@import url(./reset.scss);
+@import url(variable.scss);
+@import url(mixin.scss);
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "youtube";
+}
+body #container {
+  width: 390px;
+  height: 100%;
+  background: #000;
+  position: relative;
+}
+body #container #header {
+  width: inherit;
+  height: 55px;
+  background: #000;
+}/*# sourceMappingURL=style.css.map */
