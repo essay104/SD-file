@@ -1,0 +1,30 @@
+@import url(./reset.css);
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.done {
+  color: #999;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.active {
+  background: #222;
+  color: #fff;
+  padding: 10px 20px;
+}
