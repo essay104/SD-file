@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  --bground: #ecf0f1;
+  --bckground: #1da1f2;
+  --aHoverColor: #4169e1;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: var(--bground) _;
+}
+
+a {
+  color: var(--bckground);
+  font-size: 1.5rem;
+}
+
+a:hover {
+  width: 550px;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.post,
+.post {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
