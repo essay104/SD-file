@@ -1,0 +1,38 @@
+@import url("./reset.css");
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.circle1 {
+  background: #deb887;
+}
+
+.circle2 {
+  background: #87ded7;
+}
+
+section {
+  background: #dc143c;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  width: 100px;
+  height: 100px;
+  background: #ffd700;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

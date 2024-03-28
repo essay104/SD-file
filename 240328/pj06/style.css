@@ -1,0 +1,27 @@
+@import url("./reset.css");
+
+section {
+  width: 100vw;
+  height: 100vh;
+  background: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  width: 400px;
+  flex-flow: wrap;
+}
+
+li {
+  width: calc(100% / 9 - 4px);
+  height: 30px;
+  background: royalblue;
+  margin: 0 2px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
