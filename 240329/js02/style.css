@@ -1,0 +1,40 @@
+@import url("./reset.css");
+
+section {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: relatve;
+}
+
+.svg {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  width: 800px;
+  width: 1200px;
+}
+
+.eye {
+  position: absolute;
+  top: calc(50% + -60px);
+  left: 80%;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 100%;
+}
+
+.circle {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 100%;
+  top: calc(50% - 180px);
+  left: calc(50% - 440px);
+
+}
