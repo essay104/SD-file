@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/aa285c689f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container signup">
+      <div class="signup-inner">
+        <div class="main-header">
+          <button class="btn-back">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <h2 class="logo">Today's mealkit</h2>
+          <div class="user-alram">
+            <span>
+              <i class="fas fa-bell"></i>
+              <em data-count="6"></em>
+            </span>
+          </div>
+        </div>
+        <div class="signup-content">
+          <div class="signup-field id-pw">
+            <span>이메일 <em>*</em></span>
+            <input type="email" placeholder="이메일입력" />
+          </div>
+          <div class="signup-field id-pw">
+            <span>비밀번호 <em>*</em></span>
+            <input
+              type="password"
+              placeholder="비밀번호입력(영문, 숫자, 특수기호 조합 8~16자리)"
+            />
+          </div>
+          <div class="signup-field id-pw">
+            <span>비밀번호 <em>*</em></span>
+            <input
+              type="password"
+              placeholder="비밀번호입력(영문, 숫자, 특수기호 조합 8~16자리)"
+            />
+          </div>
+          <div class="signup-field birth">
+            <span>생년월일 <em>*</em></span>
+            <div>
+              <input type="text" placeholder="년도(4자리)">
+              <select class="month" name="month" id="month">
+                <option disabled selected value="월">월</option>
+              </select>
+              <select class="day" name="day" id="day">
+                <option disabled selected value="일">일</option>
+              </select>
+            </input>
+            </div>
+          </div>
+          <div class="signup-field phone">
+            <span>휴대전화 <em>*</em></span>
+            <div class="authenticate">
+              <div>
+                <input placeholder="휴대전화번호 입력" type="text">
+                <button class="btn-getcode">인증번호 받기</button>
+              </div>
+              <div>
+                <input type="text" placeholder="인증번호 입력">
+                <button class="btn-getcode">인증하기</button>
+              </div>
+            </div>
+          </div>
+          <div class="agree-term custom-chk"></div>
+          <button class="btn-primary btn-signup">가입하기</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

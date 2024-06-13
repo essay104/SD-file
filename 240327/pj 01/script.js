@@ -129,6 +129,8 @@ fetch(cityList)
     }
   });
 
+  console.log(cityList);
+
 fetch(storeList)
   .then((response) => response.json())
   .then((data) => {

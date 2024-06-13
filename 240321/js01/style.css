@@ -48,7 +48,7 @@ body {
   margin-top: -400px;
   margin-left: -300px;
   transform-style: preserve-3d;
-  animation: ani linear 30s;
+  animation: ani linear 30s infinite;
 }
 
 @keyframes ani {

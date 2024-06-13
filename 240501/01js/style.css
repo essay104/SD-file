@@ -1,0 +1,69 @@
+@import url("./reset.css");
+
+body {
+  background: #eee;
+  color: #222;
+  display: flex;
+}
+
+.tab-inner {
+  width: 700px;
+  max-width: 50px auto;
+}
+
+.tab-btn a {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin-left: -2px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-top: 3px solid transparent;
+  transition: all 0.3s;
+}
+
+.tab-btn a:hover {
+  color: royalblue;
+}
+
+.tab-btn a.active {
+  background: #fff;
+  color: royalblue;
+  border-top: 3px solid royalblue;
+}
+
+.tab-content {
+  position: relative;
+}
+
+.tab {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  padding: 25px;
+  opacity: 1;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.tab h2 {
+  text-transform: uppercase;
+}
+
+.tabimg {
+  width: 100%;
+}
+
+.tab:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.tab:nth-child(1) {
+  opacity: 1;
+  visibility: visible;
+}

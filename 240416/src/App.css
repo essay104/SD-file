@@ -1,0 +1,27 @@
+body {
+  background: url("https://miro.medium.com/v2/resize:fit:1100/format:webp/1*GsImz-edoeuqCMfKxDus0w.jpeg")
+    center/cover no-repeat;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+}
+
+.weatherBox {
+  border: 3px dotted #ddd;
+  border-radius: 30px;
+  padding: 30px;
+  background: azure;
+}
+
+.watherButton {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

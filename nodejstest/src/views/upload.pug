@@ -1,0 +1,11 @@
+extends base.pug
+
+block content
+  if (errMessage) {
+    span=errorMessage
+  }
+  form(method="POST" action="/videos")
+    input(name="title" type="text" placeholder="Title" required)
+    input(name="description" type="text" placeholder="Description" required)
+    input(name="hashtags" type="text" placeholder="hashtags, seperated by comma" required)
+    input(type="submit" value="Upload Video")

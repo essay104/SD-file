@@ -1,0 +1,31 @@
+{
+  "name": "nodejstest",
+  "version": "1.0.0",
+  "description": "Welcome to Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essay104/nodeJsTest.git"
+  },
+  "author": "SD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/essay104/nodeJsTest/issues"
+  },
+  "homepage": "https://github.com/essay104/nodeJsTest#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/node": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "nodemon": "^3.1.2"
+  }
+}
